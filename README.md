@@ -1,6 +1,6 @@
 # Asteroid Watchers
 
-[Public SPHEREx viewer](https://jpardue86.github.io/asteroid-watchers/) · [Six-slide project demonstration](Asteroid-Watch-Connected-Story.pptx)
+[Public demonstration dashboard](https://jpardue86.github.io/asteroid-watchers/) · [Six-slide project demonstration](Asteroid-Watch-Connected-Story.pptx)
 
 ## Project
 
@@ -12,6 +12,10 @@ Asteroid Watch preserves space data for future research through two separate wor
 The historical record is central: source inputs, retrieval dates, model and prompt versions, and review decisions remain available for inspection. Linking SPHEREx images to the cloud database is future work. The AI currently summarizes catalogue data, not SPHEREx image pixels.
 
 This repository contains the SPHEREx viewer, data sample, credits, and presentation. It does not contain privileged cloud credentials or a complete export of the deployed NeoWs backend.
+
+## Demonstration dashboard
+
+The public dashboard brings together an overview, the real SPHEREx image viewer, one archived NeoWs asteroid example, and a summary-review demonstration. It does not connect to the private database or change review decisions. Counts and sample values are dated examples, not live telemetry. The original standalone viewer is preserved in spherex.html. Interface source files are index.html, dashboard.css, and dashboard.js.
 
 ## Super Intelligence / AI-use acknowledgment
 
@@ -64,3 +68,4 @@ This viewer establishes real SPHEREx data access. It is publicly deployed throug
 - https://irsa.ipac.caltech.edu/ibe/cutouts.html
 
 Data credit: NASA SPHEREx and Caltech/IPAC Infrared Science Archive (IRSA). Retain these source links with reused data. For formal publication follow the archive's acknowledgment guidance.
+
